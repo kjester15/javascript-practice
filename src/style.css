@@ -24,7 +24,6 @@ header {
 .dropdown {
   position: relative;
   display: block;
-  /* display: inline-block; */
 }
 
 .show {
