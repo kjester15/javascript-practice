@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: beige;
+}
+
+.nav-list {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  list-style: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  /* display: inline-block; */
+}
+
+.show {
+  display: block;
+}
+
+button {
+  border: none;
+  background: none;
+  margin: 15px;
+  font-size: 24px;
+}
